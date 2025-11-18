@@ -1,0 +1,120 @@
+﻿---PWD---
+C:\Users\91779\Downloads\api-20250831T093806Z-1-001\DIDElectrnoicStore-api
+Local branch: local-sync-20251118-163424
+Using remote ref: origin/main
+Raw diff count: 
++
+2060
+Filtered files count (exists & not node_modules): 
++
+21
+.DS_Store
+.gitignore
+bg-img.jpg.png
+git_init_push_report.txt
+js/api.js
+js/main.js
+js/module.js
+package-lock.json
+package.json
+push_report.txt
+server/database.js
+server/install.log
+server/package-lock.json
+server/package.json
+server/products.db
+server/server.js
+server/server.log
+src/Index.html
+src/readme.md
+src/style.css
+sync_delta_report.txt
+Creating worktree at: 
+git : Preparing worktree (new branch 'main')
+At line:1 char:1
++ git worktree add --checkout "$worktreePath" $remoteRef 2>&1 | Out-Fil ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Preparing worktree (new branch 'main'):String) [], Rem 
+   oteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Updating files:  55% (1147/2053)
+Updating files:  56% (1150/2053)
+Updating files:  57% (1171/2053)
+Updating files:  58% (1191/2053)
+Updating files:  59% (1212/2053)
+Updating files:  60% (1232/2053)
+Updating files:  61% (1253/2053)
+Updating files:  62% (1273/2053)
+Updating files:  63% (1294/2053)
+Updating files:  64% (1314/2053)
+Updating files:  65% (1335/2053)
+Updating files:  66% (1355/2053)
+Updating files:  67% (1376/2053)
+Updating files:  68% (1397/2053)
+Updating files:  69% (1417/2053)
+Updating files:  70% (1438/2053)
+Updating files:  71% (1458/2053)
+Updating files:  72% (1479/2053)
+Updating files:  73% (1499/2053)
+Updating files:  74% (1520/2053)
+Updating files:  75% (1540/2053)
+Updating files:  76% (1561/2053)
+Updating files:  77% (1581/2053)
+Updating files:  78% (1602/2053)
+Updating files:  79% (1622/2053)
+Updating files:  80% (1643/2053)
+Updating files:  81% (1663/2053)
+Updating files:  82% (1684/2053)
+Updating files:  83% (1704/2053)
+Updating files:  84% (1725/2053)
+Updating files:  85% (1746/2053)
+Updating files:  86% (1766/2053)
+Updating files:  87% (1787/2053)
+Updating files:  88% (1807/2053)
+Updating files:  89% (1828/2053)
+Updating files:  89% (1837/2053)
+Updating files:  90% (1848/2053)
+Updating files:  91% (1869/2053)
+Updating files:  92% (1889/2053)
+Updating files:  93% (1910/2053)
+Updating files:  94% (1930/2053)
+Updating files:  95% (1951/2053)
+Updating files:  96% (1971/2053)
+Updating files:  97% (1992/2053)
+Updating files:  98% (2012/2053)
+Updating files:  99% (2033/2053)
+Updating files: 100% (2053/2053)
+Updating files: 100% (2053/2053), done.
+HEAD is now at a8ce45b Sync: delta files from local-sync-20251118-163424 against origin/main (20251118-163944)
+In worktree, creating branch: sync-delta-20251118-164053
+git : Switched to a new branch 'sync-delta-20251118-164053'
+At line:1 char:1
++ git checkout -b $deltaBranch 2>&1 | Out-File $report -Encoding utf8 - ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Switched to a n...0251118-164053':String) [], RemoteEx 
+   ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Checking out  files from local-sync-20251118-163424 into worktree
+  .DS_Store
+  .gitignore
+  bg-img.jpg.png
+  git_init_push_report.txt
+  js/api.js
+  js/main.js
+  js/module.js
+  package-lock.json
+  package.json
+  push_report.txt
+  server/database.js
+  server/install.log
+  server/package-lock.json
+  server/package.json
+  server/products.db
+  server/server.js
+  server/server.log
+  src/Index.html
+  src/readme.md
+  src/style.css
+  sync_delta_report.txt
