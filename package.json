@@ -1,0 +1,10 @@
+{
+  "name": "didelectronicstore-api-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd server && npm install",
+    "start": "node server/server.js",
+    "server": "cd server && npm start"
+  }
+}

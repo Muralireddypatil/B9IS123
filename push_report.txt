@@ -1,0 +1,54 @@
+﻿git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git remote -v 2>&1 | Out-File -FilePath $report -Encoding utf8 -Appen ...
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteEx 
+   ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+---BRANCH---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git branch --show-current 2>&1 | Out-File -FilePath $report -Encoding ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteEx 
+   ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+---STATUS---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git status --porcelain 2>&1 | Out-File -FilePath $report -Encoding ut ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteEx 
+   ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+---LAST COMMIT---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git log -1 --oneline 2>&1 | Out-File -FilePath $report -Encoding utf8 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteEx 
+   ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+---ORIGIN URL---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git remote get-url origin 2>&1 | Out-File -FilePath $report -Encoding ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteEx 
+   ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+---PUSH---
+git : fatal: not a git repository (or any of the parent directories): .git
+At line:1 char:1
++ git push -u origin $branch 2>&1 | Out-File -FilePath $report -Encodin ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteEx 
+   ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+---EXIT:128---
